@@ -8,9 +8,9 @@
 #' @export
 
 
-CreateOutputDir <- function(parentDir, dirName) {
+CreateOutputDir <- function(parentDir, dirName, startTimeStamp) {
 
-  startTimeStamp <- format(Sys.time(), "(%Y.%m.%d.%H%M)")
+  #startTimeStamp <- format(Sys.time(), "(%Y.%m.%d.%H%M)")
 
   OutputFolderName <- paste0(dirName,startTimeStamp)
 
